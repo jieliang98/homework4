@@ -117,17 +117,13 @@ header p{
   text-align: center;
 }
 
-img {
-  object-fit: cover;
-  max-height: 700px;
-  height: 100%;
-  width: 100%;
-}
-
 .about-image{
   /*Your code here */
   grid-column: 1 / -1;
   grid-row: 3 / span 1;
+  width: 100vw;
+  max-height: 700px;
+  overflow: hidden;
 }
 
 .about{
@@ -140,6 +136,9 @@ img {
   /*Your code here */
   grid-column: 1 / -1;
   grid-row: 4 / span 1;
+  width: 100vw;
+  max-height: 700px;
+  overflow: hidden;
 }
 
 .method{
@@ -152,6 +151,9 @@ img {
  /*Your code here */
   grid-column: 1 / -1;
   grid-row: 5 / span 1;
+  width: 100vw;
+  max-height: 700px;
+  overflow: hidden;
 }
 
 .clients{
@@ -164,6 +166,9 @@ img {
    /*Your code here */
   grid-column: 1 / -1;
   grid-row: 6 / span 1;
+  width: 100vw;
+  max-height: 700px;
+  overflow: hidden;
 }
 
 .contact{
@@ -207,6 +212,7 @@ img {
      /*Your code here */
     grid-column: 2 / span 2;
     grid-row: 3 / span 1;
+    width: 100%;
   }
 
   .about{
@@ -219,6 +225,7 @@ img {
     /*Your code here */
     grid-column: 3 / span 2;
     grid-row: 4 / span 1;
+    width: 100%;
   }
 
   .method{
@@ -231,6 +238,7 @@ img {
     /*Your code here */
     grid-column: 2 / span 2;
     grid-row: 5 / span 1;
+    width: 100%;
 
   }
 
@@ -244,6 +252,7 @@ img {
     /*Your code here */
     grid-column: 3 / span 2;
     grid-row: 6 / span 1;
+    width: 100%;
   }
 
   .contact{
